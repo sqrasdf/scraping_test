@@ -18,6 +18,6 @@ def notifySqr(message):
 
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
-message_content = "message at " + current_time
+message_content = "github message at " + current_time
 
 notifySqr(message_content)
